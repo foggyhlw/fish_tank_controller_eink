@@ -57,11 +57,11 @@ api:
   #           rtttl: !lambda 'return song_str;'
 ota:
   - platform: esphome
-    password: "foggy1989228"
+    password: "your_ota_password"
 
 wifi:
-  ssid: "foggy"
-  password: "123456798"
+  ssid: "your_ssid"
+  password: "your_password"
   id: fish_tank_controller_wifi
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
